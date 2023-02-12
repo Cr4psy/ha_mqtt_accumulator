@@ -1,0 +1,11 @@
+{
+    "domain": "crapsy",
+    "name": "MQTT Accumulator",
+    "codeowners": ["@cr4psy"],
+    "dependencies": ["mqtt"],
+    "integration_type": "entity",
+    "iot_class": "calculated",
+    "loggers": ["my_addon.main"],
+    "requirements": ["paho-mqtt==1.6.1","PyYAML==6.0","confp==0.4.1"],
+    "quality_scale": "internal"
+  }

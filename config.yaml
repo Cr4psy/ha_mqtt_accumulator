@@ -1,0 +1,19 @@
+name: "MQTT Accumulator"
+description: "Accumulate a binary signal over time"
+version: "1.0.2"
+slug: "mqtt_accumulator"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+map:
+  - config:rw
+  - share:rw
+schema:
+  configuration_file: str
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+options:
+  configuration_file: /config/mqtt-accumulator/config.yml
