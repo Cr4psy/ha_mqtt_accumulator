@@ -38,6 +38,7 @@ class UtilityMeter:
             state_topic=self.topic_backup(),
             unique_id="crapsy-68092106-9ad3-4023-87f5-b8dce1f61e2c-"+self.name,
             device_class="water",
+            state_class="total_increasing",
             unit_of_measurement="L",
             object_id="crapsy-68092106-9ad3-4023-87f5-b8dce1f61e2c-"+self.name,
             device=dict(
